@@ -10,7 +10,7 @@ on:
       destination:
         description: '目标源 (Registry)'
         required: true
-        default: ${{ secrets.YOUR_ALI_ACR_DOMAIN }}
+        default: 'crpi-iea4md4gskovyzml.us-west-1.personal.cr.aliyuncs.com'
       source_repo:
         description: '仓库及标签 (格式 repo:tag)'
         required: true
